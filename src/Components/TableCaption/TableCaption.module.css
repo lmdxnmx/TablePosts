@@ -1,0 +1,18 @@
+.table__caption{
+    display:flex;
+    flex-direction: row;
+    background-color:#474955;
+    color:white;
+    height:54px;
+}
+.table__caption_section{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    width:114px;
+}
+.table__caption_section img{
+    margin-left:34px;
+    cursor: pointer;
+}

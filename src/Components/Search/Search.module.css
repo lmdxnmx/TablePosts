@@ -1,0 +1,26 @@
+.search{
+    width:631px;
+    height:52px;
+    background-color: #5A5C66;
+    margin-top:23px;
+    margin-bottom:15px;
+    position: relative;
+}
+.search__input{
+    height:100%;
+    width:80%;
+    border:none;
+    background-color: transparent;
+    color:white;
+    padding-left:26px;
+    font-size:14px;
+}
+.search__input:focus{
+    outline:none;
+}
+.search__image{
+    position:absolute;
+    right:24px;
+    top:15px;
+    cursor: pointer;
+}

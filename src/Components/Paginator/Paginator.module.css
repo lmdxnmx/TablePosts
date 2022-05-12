@@ -1,0 +1,38 @@
+.paginator {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.paginator__number_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.paginator__number {
+    font-size: 18px;
+
+    font-weight: 700;
+    font-style: italic;
+    margin-left: 16px;
+}
+
+.paginator__button {
+    border: none;
+    background-color: transparent;
+    color: #474955;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.paginator__button:first-child {
+    margin-left: 41px;
+}
+
+.paginator__button:last-child {
+    margin-right: 26px;
+}
