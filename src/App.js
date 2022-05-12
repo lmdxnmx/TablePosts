@@ -26,7 +26,7 @@ const App = () => {
     }
   }
   useEffect(() => {
-    window.history.replaceState(null, "", `${currentPage}`);
+    window.history.replaceState(null, "", `#${currentPage}`);
   }, [currentPage]);
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
